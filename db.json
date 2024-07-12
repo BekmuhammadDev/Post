@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "title": "farhod-2",
+      "body": "farhod-2",
+      "id": "1720718789928"
+    },
+    {
+      "id": "1720720096410",
+      "title": "hello",
+      "body": "hello"
+    },
+    {
+      "id": "1720759704692",
+      "title": "p0st-1",
+      "body": "post-1\n"
+    }
+  ],
+  "pots": [
+    {
+      "id": "1",
+      "title": "lorem ipsum",
+      "body": "This is the content of my first post"
+    }
+  ]
+}

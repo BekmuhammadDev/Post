@@ -1,0 +1,32 @@
+
+
+ .wrapper{ 
+    background-color: rgba(0,0,0,0.7); 
+    display: grid;
+    place-content: center;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 99;
+    top: 110;
+    display: none;
+}
+
+.content{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 500px;
+    
+}
+
+.list-item{
+    position: relative;
+}
+
+.list-item .dropdown{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

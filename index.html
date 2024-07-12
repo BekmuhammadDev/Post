@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+         <div class="wrapper">
+            <div class="content">
+                <form action="#" class="p-4 shadow border " id="form">
+                    <label for="title" class="d-block">
+                        <input id="title" class="form form-control p-2 d-block " type="text" placeholder="enter post title" required>
+                    </label>
+        
+                    <div class="form-floating my-4">
+                        <textarea id="body"  class="form-control" placeholder="leave a commet here" style="height: 200px;" id="floatingText"></textarea>
+                        <label for="floatingTextarea">Post body</label>
+                    </div>
+                    <button class="btn btn-success" type="submit">save</button>
+                    <button id="close-btn" class="btn btn-secondary" type="button">cancle</button>
+
+                </form>
+            </div>
+        </div> 
+
+
+    <h1 id="notif" class="aler">
+        <!-- notif -->
+    </h1>
+    <div class="w-50 mx-auto my-5">
+        <h1 class="text-center text-primary">POSTS</h1>
+
+        <form action="#" class="p-4 shadow border " id="post-form">
+            <label for="post-title" class="d-block">
+                <input id="post-title" class="form form-control p-2 d-block " type="text" placeholder="enter post title" required>
+            </label>
+
+            <div class="form-floating my-4">
+                <textarea id="post-body"  class="form-control" placeholder="leave a commet here" style="height: 200px;" id="floatingText"></textarea>
+                <label for="floatingTextarea">Post body</label>
+            </div>
+            <button class="btn btn-primary" type="submit">creat post</button>
+        </form>
+
+        <ul class="list shadow-lg list-unstyled p-3 my-5 mx-auto">
+
+        </ul>
+
+    </div>
+
+</body>
+<script src="./utils.js"></script>
+<script src="./crud.js"></script>
+
+</html>
